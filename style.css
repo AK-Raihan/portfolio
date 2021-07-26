@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bona Nova', serif;
+}
+
+
+.main-header {
+    background: #090909;
+}
+
+
+.social-menu a {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.banner {
+    background: #090909;
+}
+
+#special-menu {
+    color: red;
+}
+
+
+.all-special-menu {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #fff;
+    transition: .6s;
+}
+
+.all-special-menu:hover {
+    color: #fff;
+}
+
+.all-special-menu:focus {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+.all-special-menu:hover #special-menu {
+    border-bottom: none;
+}
+
+.social-menu a {
+    color: #fff;
+    transition: ease-in-out .5s;
+
+}
+
+.social-menu a:hover {
+    color: rgb(87, 80, 80);
+}
+
+.common-btn {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    transition: .6s;
+    border: 2px solid #ddd;
+}
+
+.common-btn:hover {
+    background: rgb(204, 55, 55);
+    border: 2px solid rgb(204, 55, 55);
+}
+
+
+/* banner css */
+
+.banner {
+    padding-top: 200px 0;
+}
+
+.banner-content {
+    color: #fff;
+    text-align: left;
+}
+
+
+.banner-content p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.banner-content h1 {
+    font-size: 78px;
+    font-weight: 700;
+}
+
+.banner-content h2 {
+    font-size: 78px;
+    font-weight: 700;
+    color: red;
+}
+
+.banner-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* main */
+
+.education .education-item {
+    visibility: hidden;
+}
+
+.education:focus.education-item {
+    visibility: visible;
+}
+
+/*  about  */
+
+.about-section {
+    background: #191919;
+
+}
+
+.my-progress-bar {
+    margin: 20px;
+}
+
+/* Experience */
+
+.work-title {
+    border-right: 3px solid #ddd;
+}
+
+.experience-item {
+    border-left: 3px solid #ddd;
+}
+
+.experience-item li {
+    margin-left: 40px;
+}
+
+/* service  */
+
+.service-section {
+    /* background: #101010; */
+    background-image: url(img/service-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-title {
+    margin-top: 30px;
+}
+
+.section-title h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.section-title p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.service-card {
+    background: #191919;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: ease-in-out .4s;
+}
+
+.service-card:hover {
+    background-image: linear-gradient(to right, rgb(240, 101, 101), rgb(240, 25, 25));
+    color: #fff;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.service-card i {
+    font-size: 60px;
+    color: rgb(163, 6, 6);
+    margin: 20px 0 0 20px;
+
+}
+
+.service-card:hover.service-card i {
+    color: #fff;
+}
+
+.service-body h5 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.service-body p {
+    font-size: 20px;
+    color: rgb(151, 148, 148);
+}
+
+/* portfolio */
+
+.portfolio-section {
+    background: #101010;
+}
+
+.portfolio-item {
+    transition: .5s ease-in-out;
+}
+
+
+.portfolio-content {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(235, 110, 110, 0.596);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+}
+
+.portfolio-content p {
+    margin-top: 100px;
+}
+
+.portfolio-item:hover .portfolio-content {
+    visibility: visible;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.1);
+    opacity: .5;
+}
+
+.port-btn:hover {
+    background: rgb(58, 55, 21);
+}
+
+/* contact */
+
+.contact {
+    background: #191919;
+}

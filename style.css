@@ -9,8 +9,14 @@ body {
     font-family: 'Bona Nova', serif;
 }
 
+/* header */
+
 
 .main-header {
+    background: #090909;
+}
+
+.header-menu {
     background: #090909;
 }
 
@@ -26,6 +32,10 @@ body {
 
 #special-menu {
     color: red;
+}
+
+.menu-bar {
+    font-size: 40px;
 }
 
 
@@ -57,7 +67,8 @@ body {
 }
 
 .social-menu a:hover {
-    color: rgb(87, 80, 80);
+    color: rgb(241, 44, 44);
+    transform: translateY(-5px);
 }
 
 .common-btn {
@@ -126,7 +137,7 @@ body {
 }
 
 .my-progress-bar {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 /* Experience */
@@ -249,4 +260,50 @@ body {
 
 .contact {
     background: #191919;
+}
+
+/* form */
+.contact-form {
+    /* background-image: url(img/kr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #371919; */
+
+    box-shadow: 5px 19px 38px rgba(95, 76, 76, 0.3), 5px 15px 40px rgba(160, 124, 124, 0.22);
+    background: #101010;
+}
+
+#contact-form-main {
+    color: #371919;
+}
+
+.label-text {
+    color: #4a9bf8;
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer-section {
+    background: #101010;
+    color: #fff;
+}
+
+.footer-social-menu a {
+    color: #ddd;
+    margin-right: 30px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transition: .6s;
+}
+
+.footer-social-menu a:hover {
+    background: rgb(248, 34, 77);
+    border: 2px solid rgb(248, 34, 77);
 }
